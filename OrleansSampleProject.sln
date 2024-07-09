@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansSampleProject", "Server\Server.csproj", "{84C15ABE-305B-43F8-8178-4D3F888F2ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{6880BCD1-3344-49DC-A3CC-3BE21556E49A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C15ABE-305B-43F8-8178-4D3F888F2ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C15ABE-305B-43F8-8178-4D3F888F2ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C15ABE-305B-43F8-8178-4D3F888F2ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C15ABE-305B-43F8-8178-4D3F888F2ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6880BCD1-3344-49DC-A3CC-3BE21556E49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6880BCD1-3344-49DC-A3CC-3BE21556E49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6880BCD1-3344-49DC-A3CC-3BE21556E49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6880BCD1-3344-49DC-A3CC-3BE21556E49A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
