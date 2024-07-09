@@ -118,7 +118,7 @@ namespace Client
 
             while (hasLobby)
             {
-                Console.WriteLine("Пользователь с таким логином уже в игре!.");
+                Console.WriteLine("Пользователь с таким логином уже в игре!");
 
                 playerId = GetValidPlayerId();
                 playerGrain = client.GetGrain<IPlayerGrain>(playerId);

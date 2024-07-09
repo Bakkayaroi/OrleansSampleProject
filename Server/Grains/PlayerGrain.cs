@@ -70,12 +70,6 @@ public class PlayerGrain : Grain<PlayerState>, IPlayerGrain
         return Task.FromResult(_lobbyGrain != null);
     }
 
-    public Task ResetPlayer()
-    {
-        _lobbyGrain = null;
-        return Task.CompletedTask;
-    }
-
     public async Task AddScore()
     {
         State.Score++;

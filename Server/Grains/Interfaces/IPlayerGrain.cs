@@ -13,5 +13,4 @@ public interface IPlayerGrain : IGrainWithStringKey
     Task<int> GetScore();
     Task AddPlayerToQueue();
     Task<bool> HasLobby();
-    Task ResetPlayer();
 }
